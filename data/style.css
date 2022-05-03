@@ -1,0 +1,47 @@
+/* 9729043 Seyed Alreza Mirdamadi */
+/* used to set the backgroud image, fix it to the screen, set it not to repeat, and put it at the center */
+body{
+	background-image: url("back.jpg");
+	background-attachment: fixed ;
+	background-repeat: no-repeat ; 
+	background-position: enter center ;
+}
+/* this block determines the data frame attributes (the center area which we use to write data), like border, paddings, width, height, position, color, etc. */
+#mainFrame {
+	
+	position: relative;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	width: 18cm;
+	height: 12cm;
+	left: 28%;
+	top: 25%;
+	padding-left:1cm;
+	padding-right:1cm;
+	background-color: #0F0F0F;
+	opacity: 0.9;
+	border-radius: 50px; 
+}
+
+/* this block determines the position of the Starship details list, when user clocks on a starship */
+#detailsList {
+	position: absolute;
+	left: 12cm;
+	top: 2cm;
+}
+/* setting the header font color */
+h1 {
+	color: white; 
+}
+/* setting the font color used in the lists  */
+li {
+	color: white; 
+	font-size: 21px;
+}
+/* setting the font color used in the links  */
+a {
+	color: #f08c3a; 
+	font-size: 21px; 
+	float: right; 
+}
